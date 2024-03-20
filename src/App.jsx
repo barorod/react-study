@@ -1,8 +1,9 @@
+import './App.css';
 import './Pizza.css';
-import pizzaData from './data';
 import PizzaHeader from './PizzaHeader';
 import PizzaFooter from './PizzaFooter';
 import Pizza from './Pizza';
+import { pizzaData } from './data';
 import { useEffect } from 'react';
 
 const App = () => {
