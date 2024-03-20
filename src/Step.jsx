@@ -11,6 +11,7 @@ const Step = () => {
   useEffect(() => {
     document.title = 'Step';
   });
+
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
