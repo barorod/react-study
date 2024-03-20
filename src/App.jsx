@@ -1,7 +1,12 @@
 import './App.css';
+import DateToday from './DateToday';
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <DateToday />
+    </>
+  );
 };
 
 export default App;
