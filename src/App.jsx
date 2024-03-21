@@ -1,7 +1,12 @@
 import './App.css';
+import FlashCards from './FlashCards';
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <FlashCards />
+    </>
+  );
 };
 
 export default App;
