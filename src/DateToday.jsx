@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Counter from './Counter';
 
 const DateToday = () => {
   const [counts, setCounts] = useState({ count: 0, step: 1 });
