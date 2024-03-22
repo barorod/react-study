@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import List from '../List';
+import List from './List';
 
 const initialItems = [
   { id: 1, description: 'Passports', quantity: 2, packed: false },

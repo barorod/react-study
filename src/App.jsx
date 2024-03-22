@@ -1,4 +1,4 @@
-import Stats from '../Stats';
+import Stats from './Stats';
 // import './App.css';
 import './FarAway.css';
 import Form from './Form';
