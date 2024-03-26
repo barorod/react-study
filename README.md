@@ -26,3 +26,7 @@
 2. Global State
    - State that many components might need
    - Shared state that is accessible to every component in the entire application
+
+## When and Where
+
+![When and where flowchart](public/images/when-where-flowchart.png)
