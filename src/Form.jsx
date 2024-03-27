@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Form = () => {
+const Form = ({ onAddItems }) => {
   // Controlled elements
   const [description, setDescription] = useState('');
   const [quantity, setQuantity] = useState(1);
@@ -20,6 +20,8 @@ const Form = () => {
       packed: false,
       id: crypto.randomUUID(),
     };
+
+    onAddItems(newItem);
 
     setDescription('');
     setQuantity(1);
