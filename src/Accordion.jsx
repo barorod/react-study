@@ -1,6 +1,7 @@
 import Item from './Item';
+import { faqs as data } from './faqs';
 
-const Accordion = ({ data }) => {
+const Accordion = () => {
   return (
     <div className='accordion'>
       {data.map((el, i) => (
